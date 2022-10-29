@@ -21,7 +21,7 @@ gem "pry-byebug"
 
 group :development, :test do
   gem "sqlite3", "1.4.2"
-  gem "debug",   "1.5.0", platforms: %i[ mri mingw x64_mingw ]
+  gem "debug",   "1.6.3", platforms: %i[ mri mingw x64_mingw ]
 end
 
 group :development do
